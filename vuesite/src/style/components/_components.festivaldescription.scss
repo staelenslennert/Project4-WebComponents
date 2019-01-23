@@ -1,0 +1,42 @@
+@import "../settings/_settings.global";
+
+.festival-description {
+  height: 66vh;
+  display: flex;
+  background-color: white;
+}
+.festival-image {
+  background-color: rgba(0, 0, 0, 0.4);
+  // width: 587.9px;
+  // height: 437.4px;
+  width: 49%;
+}
+.festival-info {
+  margin-top: -3%;
+  padding: 8%;
+  text-align: justify;
+  width: 40%;
+}
+.festival-info__title {
+  font-size: 2em;
+  color: #b31919;
+  line-height: 1.2em;
+}
+.festival-info__text {
+  line-height: 1.4em;
+  color: #312d2d;
+  font-weight: 400;
+}
+.festival-info__button{
+  background-color: #b31919; /* Green */
+  border: none;
+  color: #b31919;
+  background-color: transparent;
+  margin-left: -0.8%; 
+  text-align: left;
+  text-decoration: none;
+  font-weight: bold;
+}
+.festival-info__button-icon{
+  color: #b31919;
+}

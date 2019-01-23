@@ -1,0 +1,45 @@
+@import "../settings/_settings.global";
+
+.venue{
+  margin-top: -1%;
+    height: 38vh;
+    display: flex;
+    background-color: white;
+    padding-top: 2%;
+}
+.venue-sortup__icon{
+  position: absolute;
+  margin-left: 47.6%;
+  margin-top: -3.8%;
+  z-index: 999;
+}
+.fa-sort-up{
+  font-size: 5em;
+    color: white;
+}
+.venue-info{
+  width: 50%;
+  margin-left: -30%;
+}
+.venue-map{
+  width: 50%;
+  margin-left: 15%;
+}
+.venue-info__box{
+  width: 30%;
+  margin-left: 33%;
+  text-align: left;
+}
+.venue-info__box-address{
+  font-size: 1.3em;
+  font-weight: 400;
+}
+.venue-info__box-address:nth-child(1){
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.c-map{
+  height: 30vh;
+  width: 30vw;
+  text-align: left;
+}
