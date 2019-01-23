@@ -1,0 +1,130 @@
+.festival-description {
+  height: 66vh;
+  display: flex;
+  background-color: white;
+}
+.festival-image {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 49%;
+}
+.festival-info {
+  margin-top: -3%;
+  padding: 8%;
+  text-align: justify;
+  width: 40%;
+}
+.festival-info__title {
+  font-size: 2em;
+  color: #b31919;
+  line-height: 1.2em;
+}
+.festival-info__text {
+  line-height: 1.4em;
+  color: #312d2d;
+  font-weight: 400;
+}
+.festival-info__button {
+  background-color: #b31919; /* Green */
+  border: none;
+  color: #b31919;
+  background-color: transparent;
+  margin-left: -0.8%;
+  text-align: left;
+  text-decoration: none;
+  font-weight: bold;
+}
+.festival-info__button-icon {
+  color: #b31919;
+}
+.tab-content__item {
+  display: none;
+}
+
+.info {
+  height: 50vh;
+  display: flex;
+  background-color: #b31919;
+  padding: 3% 0 2% 4%;
+  justify-content: center;
+}
+.info-blok {
+  border: 6px solid white;
+  width: 20%;
+  height: 85%;
+  margin-right: 6%;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.info-blok-title {
+  font-size: 1.7em;
+}
+.info-blok-price__price {
+  font-size: 2.6em;
+}
+.info-blok-price__slash {
+  font-size: 3.6em;
+}
+.info-blok-price {
+  margin-top: 10%;
+}
+.info-blok-venue__icon {
+  font-size: 4em;
+}
+.info-blok__more {
+  margin-top: 20%;
+}
+.info-blok__more-price {
+  margin-top: 10%;
+}
+.info-blok-price__date {
+  font-size: 2.5em;
+}
+.tab-content__item {
+  display: none;
+}
+.venue {
+  margin-top: -1%;
+  height: 38vh;
+  display: flex;
+  background-color: white;
+  padding-top: 2%;
+}
+.venue-sortup__icon {
+  position: absolute;
+  margin-left: 47.6%;
+  margin-top: -3.8%;
+  z-index: 999;
+}
+.fa-sort-up {
+  font-size: 5em;
+  color: white;
+}
+.venue-info {
+  width: 50%;
+  margin-left: -30%;
+}
+.venue-map {
+  width: 50%;
+  margin-left: 15%;
+}
+.venue-info__box {
+  width: 100%;
+  margin-left: 8%;
+  text-align: left;
+  margin-top: 7%;
+}
+.venue-info__box-address {
+  font-size: 1em;
+  font-weight: 400;
+}
+.venue-info__box-address:nth-child(1) {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+.c-map {
+  height: 30vh;
+  width: 30vw;
+  text-align: left;
+}

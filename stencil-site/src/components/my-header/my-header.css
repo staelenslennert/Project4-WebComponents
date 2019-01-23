@@ -1,0 +1,36 @@
+.header-img {
+  background: url(../../assets/backgroundall.jpg) no-repeat 50% 50% fixed;
+
+  /* Full height */
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+}
+.layer {
+  background-color: rgba(0, 0, 0, 0.4);
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.header-content {
+  padding-top: 22%;
+  margin-left: 10%;
+}
+.header-title {
+  color: #ffffff;
+  font-weight: 100;
+  font-size: 6em;
+}
+.header-button {
+  font-size: 1.4em;
+  background-color: transparent; /* Green */
+  border: 4px solid #ffffff;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 5%;
+}
